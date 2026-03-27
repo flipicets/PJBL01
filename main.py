@@ -68,3 +68,5 @@ while menu_iniciar != 6:
     else:
         pass
 
+        print("oi")
+
