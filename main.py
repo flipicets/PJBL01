@@ -14,7 +14,7 @@ while menu_iniciar != 6:
     if menu_iniciar == 1:
         peso_pessoa = float(input("Insira seu peso em quilogramas: "))
         altura_pessoa = int(input("Insira sua altura em centímetros: "))
-        calculo_imc = (peso_pessoa * 10000 ) / (altura_pessoa * altura_pessoa)
+        calculo_imc = (peso_pessoa * 10000) / (altura_pessoa * altura_pessoa)
         print("Seu IMC é de ", calculo_imc)
 
     elif menu_iniciar == 2:
@@ -23,6 +23,9 @@ while menu_iniciar != 6:
         print("Você precisa beber, no mínimo, ", meta_hidratacao, "litros de água por dia")
 
     elif menu_iniciar == 3:
+
+        peso_pessoa = float(input("Insira seu peso em quilogramas: "))
+
         print("Modos de exercício: ")
         print("Para intenso leve 1")
         print("Para moderado insira 2")
@@ -33,8 +36,10 @@ while menu_iniciar != 6:
         print("Para Cardiovascular insira 2")
         print("Para Alongamento insira 3")
         tipo_exercicio = int(input("Insira o tipo de exercício: "))
+
         if tipo_exercicio == 1:
             if intensidade_exercicio == 1:
+
                 print()
             elif intensidade_exercicio == 2:
                 print()
@@ -67,6 +72,3 @@ while menu_iniciar != 6:
 
     else:
         pass
-
-        print("oi")
-
