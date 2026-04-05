@@ -46,6 +46,7 @@ while menu_iniciar != 1 and menu_iniciar != 2 and menu_iniciar != 3 and menu_ini
         intensidade_exercicio = int(input())
 
         while intensidade_exercicio != 1 and intensidade_exercicio != 2 and intensidade_exercicio != 3:
+            print()
             print("Por favor, escolha uma opção válida.")
             print()
             print("Modos de exercício: ")
@@ -54,6 +55,7 @@ while menu_iniciar != 1 and menu_iniciar != 2 and menu_iniciar != 3 and menu_ini
             print("Para intenso insira 3")
             intensidade_exercicio = int(input())
 
+        calorias_gastas = 0
         if sexo_pessoa == 1:
             taxa_metabolica = (10 * peso_pessoa) + (6.25 * altura_pessoa) - (5 * idade_pessoa) + 5
             if intensidade_exercicio == 1:
@@ -62,7 +64,6 @@ while menu_iniciar != 1 and menu_iniciar != 2 and menu_iniciar != 3 and menu_ini
                 calorias_gastas = taxa_metabolica * 1.55
             else:
                 calorias_gastas = taxa_metabolica * 1.9
-            print("Você gastou, em média,", calorias_gastas, "calorias hoje.")
 
         elif sexo_pessoa == 2:
             taxa_metabolica = (10 * peso_pessoa) + (6.25 * altura_pessoa) - (5 * idade_pessoa) - 161
@@ -72,7 +73,7 @@ while menu_iniciar != 1 and menu_iniciar != 2 and menu_iniciar != 3 and menu_ini
                 calorias_gastas = taxa_metabolica * 1.55
             else:
                 calorias_gastas = taxa_metabolica * 1.9
-            print("Você gastou, em média,", calorias_gastas, "calorias hoje.")
+        print("Você gastou, em média,", calorias_gastas, "calorias hoje.")
 
     elif menu_iniciar == 4:
         print()
