@@ -8,7 +8,7 @@ while menu_iniciar != 6:
     print("Para cálculo de IMC, digite 1")
     print("Para meta diária de hidratação, digite 2")
     print("Para saber seu gasto calórico em atividade física, digite 3")
-    print("Para verificar a meta diária de exercício, digite 4")
+    print("Para verificar a sua meta diária de exercício, digite 4")
     print("Para mostrar seu resumo diário, digite 5")
     print("Para sair, digite 6")
     menu_iniciar = int(input("Insira a opção desejada: "))
@@ -78,6 +78,19 @@ while menu_iniciar != 6:
         print("Você gastou, em média,", calorias_gastas, "calorias hoje.")
 
     elif menu_iniciar == 4:
+        peso_pessoa = int(input("Insira seu peso em quilogramas: "))
+        print("Agora, informe seus objetivos:")
+        print("Para se manter ativo, digite 1")
+        print("Para emagrecer, digite 2")
+        print("Para musculação, digite 3")
+        escolha_meta = int(input("Insira sua escolha: "))
+        meta_hidratacao = (peso_pessoa * 0.035)
+        while escolha_meta < 1 or escolha_meta > 3:
+            print("Por favor, insira uma opção válida.")
+            print("Para se manter ativo, digite 1")
+            print("Para emagrecer, digite 2")
+            print("Para musculação, digite 3")
+            escolha_meta = int(input("Insira sua escolha: "))
         print()
 
     elif menu_iniciar == 5:
