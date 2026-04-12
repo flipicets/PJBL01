@@ -2,6 +2,8 @@ menu_iniciar = 0
 calculo_imc = 0
 meta_hidratacao = 0
 calorias_gastas = 0
+meta_calorias = 0
+gasto_metabolico = 0
 
 while menu_iniciar != 6:
     print("-----FUNCIONALIDADES-----")
@@ -91,7 +93,23 @@ while menu_iniciar != 6:
             print("Para emagrecer, digite 2")
             print("Para musculação, digite 3")
             escolha_meta = int(input("Insira sua escolha: "))
-        print()
+
+        if escolha_meta == 1:
+            meta_calorias = 200
+            gasto_metabolico = 4
+
+        elif escolha_meta == 2:
+            meta_calorias = 400
+            gasto_metabolico = 6
+
+        elif escolha_meta == 3:
+            meta_calorias = 300
+            gasto_metabolico = 5
+
+        tempo_exercicio = (meta_calorias / (gasto_metabolico * peso_pessoa)) * 60
+
+        print("Sua meta diária de exercício hoje é :", tempo_exercicio, "minutos.")
+        print("E você deve beber, em média, ",meta_hidratacao, "litros de água.")
 
     elif menu_iniciar == 5:
         if calculo_imc != 0 and meta_hidratacao != 0 and calorias_gastas != 0:
