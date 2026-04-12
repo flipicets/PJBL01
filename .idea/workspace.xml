@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c5c71e-caff-45aa-b2be-96ddd7402be2" name="Changes" comment="Comecei o elif 4 kkkkkkkkkkkkkkkkk">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c7c5c71e-caff-45aa-b2be-96ddd7402be2" name="Changes" comment="Primeira versão completa com as funcionalidades básicas." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,7 @@
       <workItem from="1775769737117" duration="2245000" />
       <workItem from="1775933769845" duration="86000" />
       <workItem from="1776014654332" duration="227000" />
-      <workItem from="1776014991483" duration="1544000" />
+      <workItem from="1776014991483" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="Comecei o elif 4 kkkkkkkkkkkkkkkkk">
       <option name="closed" value="true" />
@@ -121,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775771986296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primeira versão completa com as funcionalidades básicas.">
+      <option name="closed" value="true" />
+      <created>1776016882626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776016882626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,9 +134,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comecei o elif 4 kkkkkkkkkkkkkkkkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comecei o elif 4 kkkkkkkkkkkkkkkkk" />
+    <MESSAGE value="Primeira versão completa com as funcionalidades básicas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeira versão completa com as funcionalidades básicas." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PJBL01$main.coverage" NAME="main Coverage Results" MODIFIED="1775770256097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PJBL01$main.coverage" NAME="main Coverage Results" MODIFIED="1776016672335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
