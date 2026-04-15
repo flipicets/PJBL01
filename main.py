@@ -50,9 +50,7 @@ while menu_iniciar != 6:
         intensidade_exercicio = int(input())
 
         while intensidade_exercicio != 1 and intensidade_exercicio != 2 and intensidade_exercicio != 3:
-            print()
             print("Por favor, escolha uma opção válida.")
-            print()
             print("Modos de exercício: ")
             print("Para leve leve 1")
             print("Para moderado insira 2")
@@ -119,12 +117,10 @@ while menu_iniciar != 6:
             print("Vocẽ gastou, em média,", calorias_gastas, "calorias.")
         else:
             print("Você não acessou informações suficientes para obter um resumo diário.")
-        print()
+
 
     elif menu_iniciar == 6:
         break
 
     else:
-        print()
         print("Por favor, insira uma opção valida.")
-        print()
