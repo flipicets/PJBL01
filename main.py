@@ -32,7 +32,6 @@ while menu_iniciar != 6:
         print("Para sexo feminino, digite 2")
         sexo_pessoa = int(input())
 
-
         while sexo_pessoa != 1 and sexo_pessoa != 2:
             print("Por favor, escolha uma opção valida.")
             print("Para sexo masculino, digite 1")
